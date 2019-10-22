@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/VegImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        />
+    <TextView
+        android:id="@+id/VegName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/VegImage"/>
+    <TextView
+        android:id="@+id/VegDesc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/VegName"/>
+    <TextView
+        android:id="@+id/VegPrice"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/VegDesc"
+        android:layout_marginBottom="5dp" />
+
+</RelativeLayout>

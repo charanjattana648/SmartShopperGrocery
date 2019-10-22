@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".SelectedGridItem">
+
+    <ImageView
+        android:id="@+id/selectedFruitImage"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_below="@+id/selectedFruitImage"
+        android:id="@+id/fruitItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/fruitItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/selectedFruitImage"
+        android:layout_toRightOf="@id/fruitItemName"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="22dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantity"
+        android:ems="11"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:padding="12dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#363636"
+        android:textColorHint="#363636"
+        android:layout_below="@id/fruitItemPrice"
+        android:hint="Select Quantity" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addToCart"
+        android:layout_below="@id/quantity"
+        android:layout_marginStart="60dp"
+        android:text="Add To Cart"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:textSize="14sp"
+        android:background="#fc3148" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/cancelOrder"
+        android:layout_below="@id/quantity"
+        android:layout_toRightOf="@id/addToCart"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        android:text="Cancel"
+        android:textSize="14sp"
+        android:background="#fc3148" />
+
+
+</RelativeLayout>

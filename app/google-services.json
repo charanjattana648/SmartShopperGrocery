@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "684453055674",
+    "firebase_url": "https://groceryapp-62fe1.firebaseio.com",
+    "project_id": "groceryapp-62fe1",
+    "storage_bucket": "groceryapp-62fe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684453055674:android:90f4e33a0767845a",
+        "android_client_info": {
+          "package_name": "com.smartshopper.smartshoppergrocery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684453055674-cv2g7dmnkfhi9iko3n2315fin1qig2h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartshopper.smartshoppergrocery",
+            "certificate_hash": "281a5f3e28338700454e229c4e5e5c148842d524"
+          }
+        },
+        {
+          "client_id": "684453055674-gus11r10kmufg01dnch91b3dlgrasjok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg4Xr-_JFj8Xl1-PJrla9wXFHShcfGJF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684453055674-gus11r10kmufg01dnch91b3dlgrasjok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

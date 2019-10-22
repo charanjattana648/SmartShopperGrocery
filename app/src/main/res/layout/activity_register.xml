@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/user_reg"/>
+
+
+    <EditText
+        android:id="@+id/RemailInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email Address"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress"
+        android:background="#fff"
+        android:padding="8dp"
+        android:textColorHint="#6c6c6c"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:maxLines="1"
+        android:ems="10"
+        android:layout_below="@id/user_reg"
+        android:singleLine="true"
+        android:textSize="25dp"/>
+
+
+    <EditText
+        android:imeOptions="actionUnspecified"
+        android:id="@+id/RpasswordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:padding="8dp"
+        android:textColorHint="#6c6c6c"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:singleLine="true"
+        android:hint="Enter Password"
+        android:layout_below="@id/RemailInput"
+        android:textSize="25dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:imeOptions="actionUnspecified"
+        android:id="@+id/ConfirmPasswordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RpasswordInput"
+        android:maxLines="1"
+        android:background="#fff"
+        android:padding="8dp"
+        android:textColorHint="#6c6c6c"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:singleLine="true"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="Re-Enter Password"
+        android:textSize="25dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/sign_in_buttonR"
+        android:layout_width="wrap_content"
+        android:ems="18"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#fc3148"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@id/ConfirmPasswordInput"
+        android:text="Sign In"
+        android:textColor="#fff" />
+
+    <!-- Link to Login Screen -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/sign_up_buttonR"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in_buttonR"
+        android:ems="18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#fc3148"
+        android:textSize="14sp"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

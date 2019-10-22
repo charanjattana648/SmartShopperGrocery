@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreenMain">
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/banner" />
+
+    <TextView
+        android:id="@+id/categoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/banner"
+        android:layout_marginStart="15dp"
+        android:text="@string/categories"
+        android:textSize="28sp" />
+
+    <ImageButton
+        android:id="@+id/fruits"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/categoryTitle"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fruits_btn" />
+
+    <ImageButton
+        android:id="@+id/vegetables"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/categoryTitle"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/vegetable_btn" />
+
+    <ImageButton
+        android:id="@+id/bakery"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/vegetables"
+        android:layout_marginStart="15dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bakery_btn" />
+
+    <ImageButton
+        android:id="@+id/candies"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/vegetables"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/candy_btn" />
+
+
+</RelativeLayout>

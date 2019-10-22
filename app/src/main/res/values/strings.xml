@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart Shopper Grocery</string>
+    <string name="categories">Categories</string>
+    <string name="cart">Cart</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+</resources>
